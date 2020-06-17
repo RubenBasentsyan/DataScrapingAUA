@@ -38,4 +38,7 @@ time.sleep(2);
 
 result = [quote_scraper(f"http://quotes.toscrape.com/page/{i}/") for i in range(1,6)]
 
-print(result)
+for i in range(1,6):
+    print(quote_scraper(f"http://quotes.toscrape.com/page/{i}/"))
+  
+#print(result)
