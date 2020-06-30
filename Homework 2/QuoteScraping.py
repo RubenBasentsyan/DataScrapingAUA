@@ -29,7 +29,6 @@ class Quotes:
 
 
 
-
 quotes = []
 qt = Quotes(URL)
 

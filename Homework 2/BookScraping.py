@@ -46,7 +46,7 @@ books = []
 #While a NEXT button exists, the loop will scrape everything from the page, transform the URL into the hyperlink underneath the NEXT button and continue. If no NEXT button exists, the loop will scrape the page and finish the sequence.
 
 while True:
-    time.sleep(2)
+    #time.sleep(2)
     if(b.get_next() == []):
         books.append(b.scrape_book())
         break
