@@ -84,7 +84,7 @@ jobs.append(i_pages)
 
 jobs = list(map(list, zip(*jobs)))
 jobs_df = pd.DataFrame(jobs, columns=['Vacancies','Companies','Deadlines','Locations','Individual Pages'])
-jobs_df.to_csv('jobs.csv')
+jobs_df.to_csv('Homework 3/jobs.csv')
 
 fj = jobs_df['Companies'].value_counts().idxmax()
 fr_comp = []

@@ -112,7 +112,7 @@ books.append(descriptions)
 
 books = list(map(list, zip(*books)))
 books_df = pd.DataFrame(books, columns=['Titles','Ratings','Prices','Book link','Image link','Availability','Genre','Description'])
-books_df.to_csv('books.csv')
+books_df.to_csv('Homework 3/books.csv')
 
 
 price_avg = sum(map(float,prices))/len(prices)
